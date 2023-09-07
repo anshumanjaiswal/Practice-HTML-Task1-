@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+/>
+  <title>Checkout</title>
+  <style type="text/css">
+    body {
+  height: 125vh;
+  margin-top: 80px;
+padding: 30px;
+ background-size: cover; 
+ font-family: sans-serif; 
+}
+
+header {
+  background-color: white;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: -4rem;
+  height: 30px;
+  align-items: center;  
+  display: flex;
+}
+header * {
+  display: inline;
+}
+header li{
+  margin: 20px;
+}
+header li a{
+  margin-top: 50rem;
+  color:black;
+  text-decoration: none;
+  list-style-type:none;
+}
+    </style>
+</head>
+<body>      
+         <!-- navbar -->
+         <header>
+          <nav>
+      <ul>
+        <li><a href="/"><img src="https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2019/06/organic-store-logo5.svg" alt="logo"></a></li>
+        <li><a href="https://websitedemos.net/organic-shop-02/shop/" style="position: relative;
+          top: -40px;">Everything</a></li>
+        <li><a href="groceries.html" style="position: relative;
+          top: -40px;">Groceries</a></li>
+        <li><a href=https://websitedemos.net/organic-shop-02/product-category/juice/ style="position: relative;
+          top: -40px;">Juice</a></li>
+        <li><a href="https://websitedemos.net/organic-shop-02/about/" style="position: relative;
+          top: -40px; margin-left: 400px;">About</a></li>
+        <li><a href="https://websitedemos.net/organic-shop-02/contact/" style="position: relative;
+          top: -40px;">Contact</a></li>
+      </ul>
+      </nav>
+      </header>
+  
+<div>
+  Checkout<br><br>
+</div><hr>
+<br><br>
+<div>
+  Billing details<br><hr><br>
+  
+<form>
+  <label for="firstname">First name</label><br>
+  <input type="text" id="firstname" required><br><br>
+  <label for="lastname">Last name</label><br>
+  <input type="text" id="lastname" required><br><br>
+  <label for="companyname">Company name (optional)</label><br>
+  <input type="text" id="companyname"><br><br>
+ <label for="country">Country/Region</label><br><br>
+ <select name="country">
+  <option value="value1">India</option>
+  <option value="value2">Iran</option>
+  <option value="value3">Iraq</option>
+ </select><br><br>
+ <label for="streetaddress">Street address</label><br>
+ <input type="text" id="streetaddress" placeholder="House number and street name"><br><br>
+ <input type="text" id="streetaddress" placeholder="Apartment, suite, unit, etc. (optional)"><br><br>
+ <label for="town">Town/City</label><br>
+ <input type="text" id="town"><br><br>
+ <label for="state">State</label><br>
+ <select name="state">
+  <option value="value1">M.P</option>
+  <option value="value2">U.P</option>
+  <option value="value3">J.H</option>
+ </select><br><br>
+ <label for="pin">PIN Code</label><br>
+ <input type="number" id="pin"><br><br>
+ <label for="phone">Phone</label><br>
+ <input type="number" id="phone"><br><br>
+ <label for="email">Email address</label><br>
+ <input type="email" id="email">
+
+ <h1>Additional information</h1><hr><br>
+ <label for="order">Order notes (optional)</label><br>
+ <input type="text" id="order" placeholder="Notes"><br><br>
+</form>
+
+</div>
+</body>
+</html>
