@@ -54,3 +54,130 @@ header li a {
   /* margin-top: -2rem; */
   top: -6rem;
 }
+
+#product-img{
+position: absolute;
+width: 50%;
+height:90%;
+left: 10px;
+top: 150px;
+}
+
+.productdetails{
+  position: absolute;
+  left: 700px;
+  width: 50%;
+  height: 50%;
+  top: 125px;
+}
+
+#description{
+  font-weight: lighter;
+}
+
+#addtocart{
+  width: 40px;
+  height: 30px;
+}
+
+#cart-btn {
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 15px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+#cart-btn:hover{
+background-color: rgb(26, 223, 26);
+}
+
+
+
+.desc-review {
+  position: absolute;
+  top: 750px;
+  left: 10px;
+}
+
+.description-button{
+  position: absolute;
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+   cursor: pointer;
+   transition-duration: 0.4s;
+  top: 0px; 
+  left: 0px;
+}
+
+.description-button:hover{
+  color: rgb(44, 42, 42);
+}
+
+#description-button-paragraph{
+  position: relative;
+  left: -20px;
+}
+
+.review-button{
+  position: absolute;
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+   cursor: pointer;
+   transition-duration: 0.4s;
+  top: 100px; 
+  left: 0px;
+}
+
+.review-button:hover{
+  color: rgb(44, 42, 42);
+}
+
+#review-button-paragraph{
+  position: relative;
+  left: -20px;
+}
+
+.review-button-form {
+  position: relative;
+  left: -20px;
+  /* background-color: white; */
+  /* width: 10px; */
+  /* border: 1px solid black; */
+  /* padding: 10px; */
+  /* margin: 50px;  */
+
+}
+
+#submit-review-button{
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 15px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  margin-left: auto;
+}
+
+#submit-review-button:hover{
+  background-color: rgb(26, 223, 26);
+}

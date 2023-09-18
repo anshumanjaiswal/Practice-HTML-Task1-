@@ -24,52 +24,48 @@
   </header>
   
   <div>
-  <img src="https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2018/06/coffee-asorted.jpg" alt="product-image">
+  <img id="product-img" src="https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2018/06/coffee-asorted.jpg" alt="product-image">
   </div>
   
-  <div>
+  <div class="productdetails">
     <h1>Assorted Coffee</h1>
-    <h2>£35.0<h2>
-    </div>
-    <div>
-      <p>+ Free Shipping</p> 
-      <p>Neque porro quisquam est, qui dolore ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non incidunt lores ta porro ame. numquam eius modi tempora incidunt lores ta porro ame.</p>
-      <input type="number" id="addtocart" name="addtocart">
-      <button type="submit" id="submit" name="submit">ADD TO CART</button>
+    <h2>£35.0 <span id="description">+ Free Shipping</span><h2>
+       
+      <p id="description">Neque porro quisquam est, qui dolore ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non incidunt lores ta porro ame. numquam eius modi tempora incidunt lores ta porro ame.</p>
+      <input type="number" id="addtocart" name="addtocart" value="1">
+      <button type="submit" id="cart-btn" name="submit">ADD TO CART</button>
       </div>
-<hr>
-      <div>
+
+      <div class="desc-review">
+        <hr>
         <header>
           <ul>
-            <li>Description
-              <br>
-              <p>Neque porro quisquam est, qui dolore ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non incidunt lores ta porro ame. numquam eius modi tempora incidunt lores ta porro ame.
-              </li><br>
-            <li>Reviews (0) <br>
-              <p>There are no reviews yet.</p>
+            <li><button class="description-button">Description</button><br><br>
+      <p id="description-button-paragraph">Neque porro quisquam est, qui dolore ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non incidunt lores ta porro ame. numquam eius modi tempora incidunt lores ta porro ame.
+              </li><br><br>
+            <li><button class="review-button">Reviews (0)</button><br><br>
+              <p id="review-button-paragraph">There are no reviews yet.</p><br><br>
+              <div class="review-button-form">
+                <p>Be the first to review “Assorted Coffee”</p><br>
+                <p>Your email address will not be published. Required fields are marked *</p><br><br>
+                <p>Your rating * </p><br><br>
+                <form>
+                  <label for="review">Your review *</label><br>
+                  <textarea name="review" id="review" cols="40" rows="10"></textarea><br>
+                  <label for="name">Name *</label><br>
+                  <input type="text" id="name"> 
+                  <label for="email">Email *</label>  
+                  <input type="email" id="email"><br><br>
+                  <input type="checkbox" id="savedetails">
+                  <label for="savedetails">Save my name, email, and website in this browser for the next time I comment.</label><br><br>
+                  <button type="submit" id="submit-review-button">SUBMIT</button>
+                </form> 
+                </div>
             </li>
           </ul> 
         </header>
-     
-        <div>
-<p>Be the first to review “Assorted Coffee”</p>
-<p>Your email address will not be published. Required fields are marked *</p>
-<p>Your rating * stars </p>
-<form>
-  <label for="review">Your review *</label><br>
-  <textarea name="review" id="review" cols="40" rows="10"></textarea><br>
-  <label for="name">Name *</label><br>
-  <input type="text" id="name"> 
-  <label for="email">Email *</label>  
-  <input type="email" id="email"><br><br>
-  <input type="checkbox" id="savedetails">
-  <label for="savedetails">Save my name, email, and website in this browser for the next time I comment.</label><br><br>
-  <button type="submit">SUBMIT  
-  </button>
-</form> 
-</div>
-      
-      </div>
+    
+     </div>
       
 </body>
 </html>
