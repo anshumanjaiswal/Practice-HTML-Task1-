@@ -73,6 +73,7 @@ top: 150px;
 
 #description{
   font-weight: lighter;
+  font-size: 1.5vw;
 }
 
 #addtocart{
@@ -160,7 +161,10 @@ background-color: rgb(26, 223, 26);
   /* border: 1px solid black; */
   /* padding: 10px; */
   /* margin: 50px;  */
+}
 
+#review{
+  width: 90%;
 }
 
 #submit-review-button{
