@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="cart.css">
+  <title>Cart Total</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="/"><img
+              src="https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2019/06/organic-store-logo5.svg"
+              id="logo" alt="logo"></a></li>
+        <li><a href="https://websitedemos.net/organic-shop-02/shop/" id="nav-item1">Everything</a></li>
+        <li><a href="groceries.html" id="nav-item2">Groceries</a></li>
+        <li><a href=https://websitedemos.net/organic-shop-02/product-category/juice/ id="nav-item3">Juice</a></li>
+        <li><a href="https://websitedemos.net/organic-shop-02/about/" id="nav-item4">About</a></li>
+        <li><a href="https://websitedemos.net/organic-shop-02/contact/" id="nav-item5">Contact</a></li>
+        <li><a href="/" id="nav-item6">Cart</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- cart items -->
+
+  <div>
+    <h1>Cart</h1>
+    <hr>
+    <table border="1">
+      <tr>
+        <th></th>
+        <th></th>
+        <th>Product</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Subtotal</th>
+      </tr>
+
+      <tr>
+        <td>close</td>
+        <td>image</td>
+        <td>Assorted Coffee</td>
+        <td>$35.00</td>
+        <td><input type="number" id="quantity" value="1"></td>
+        <td>$35.00</td>
+      </tr>
+    </table>
+    <hr>
+    <table border="1">
+      <tr>
+        <td><input type="text" id="coupon" value="Coupon code"></td>
+        <td><button type="submit" id="coupon-button">APPLY COUPON</button></td>
+        <td><button type="submit" id="update-cart-button">UPDATE CART</button></td>
+      </tr>
+    </table>
+    <hr>
+  </div>
+
+  <div>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>
+            <h2>Cart totals</h2>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Subtotal</td>
+          <td>$35.00</td>
+        </tr>
+        <tr>
+          <td>Total</td>
+          <td>$35.00</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td><button type="submit" id="proceedtocheckout-button">
+              PROCEED TO CHECKOUT
+            </button></td>
+        </tr>
+      </tfoot>
+
+    </table>
+  </div>
+</body>
+
+</html>
