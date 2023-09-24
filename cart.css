@@ -54,3 +54,68 @@ header li a {
   /* margin-top: -2rem; */
   top: -6rem;
 }
+
+table, th{
+  border: 1px solid;
+  width: 100%;
+}
+
+td{
+  width: 50%;
+}
+
+#coupon-button {
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 15px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+#coupon-button:hover {
+  background-color: rgb(26, 223, 26);
+}
+
+#update-cart-button{
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 15px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+#update-cart-button:hover{
+  background-color: rgb(26, 223, 26);
+}
+
+#proceedtocheckout-button{
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: 30rem;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+#proceedtocheckout-button:hover {
+  background-color: rgb(26, 223, 26);
+}
+  
+  
