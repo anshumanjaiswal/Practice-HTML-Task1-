@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-      />
-      <link rel="stylesheet" type="text/css" href="groceries.css">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <link rel="stylesheet" type="text/css" href="groceries.css">
   <title>Groceries</title>
-   </head>
+</head>
 <body>
        <!-- navbar -->
        <header>
@@ -33,12 +33,34 @@
     <button type="submit" id="search-button">Search</button>
     </div>
     
+    <p id="demo"></p>
+    <h2>Filter by price</h2>
+    
+    <div class="wrapper">
+  <div class="values">
+   <span id="range-1">
+     $10
+   </span>
+   <span> &dash; </span>
+ <span id="range-2">
+    $40
+ </span>
+ </div>
+
+    <div class="container">
+ <div class="slider-track"></div>
+    <input type="range" min="10" max="40" value="30" id="slider-1">
+ <input type="range" min="10" max="40" value="20" id="slider-2">
+  </div>
+</div>
+
+<br>
    <div>
     <h1>Groceries</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim, velit et luctus interdum, est quam scelerisque tellus, eget luctus mi diam vitae erat. Praesent porttitor lacus vitae dictum posuere. Suspendisse elementum metus ac dolor tincidunt, eu imperdiet nisi dictum.</p>
   </div>
   <br>
-  
+
       <div>
         <a
           href="https://websitedemos.net/organic-shop-02/product/assorted-coffee/"
@@ -179,7 +201,8 @@
                 src="https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2018/06/face-wash-300x300.jpg"
                 alt="pic" 
             /></a>
-            <p>
+            <p>range1.style.color="green";
+
               Groceries
             </p>
             <a
@@ -209,6 +232,6 @@
             ><span class="fa fa-star"></span>
             <p><b>£15.00</b></p>
           </div>
-          
+          <script src="groceries.js"></script>
 </body>
 </html>
